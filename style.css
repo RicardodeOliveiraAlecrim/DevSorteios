@@ -1,0 +1,145 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+  appearance: none;
+  outline: none;
+  font-family: 'Fasthand', cursive;
+
+}
+
+main {
+  height: 100vh;
+  background: #986a61 url(./assets/mesa.png);
+  background-position: center center;
+  background-attachment: scroll;
+  background-size: cover;
+  background-origin: content-box;
+  
+}
+
+header {
+  text-align: center;
+  font-size: 40px;
+  color: #030506;
+  height: 60vh;
+   
+    
+}
+
+.dev {
+  font-size: 20px;
+  color: #454545;
+}
+
+.dados {
+  width: 50vw;
+  height: auto;
+  margin: 0 auto;
+}
+
+section {
+  height: 40vh;
+  width: 60vw;
+  display: block;
+  margin-left: 20vw;
+  margin-right: 20vw;
+  padding: 1% 1%;
+    
+}
+
+section input {
+  width: 25%;
+  height: 20px;
+  display: inline;
+  margin: 0 12%;
+  border-width: 0;
+  cursor: pointer;
+  padding: 0 2px;
+  font-family: 'Karla', sans-serif;
+    
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+input::-webkit-input-placeholder {
+  font-weight: bold;
+}
+
+section button {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 30px;
+  width: auto;
+  padding: 1px 5px;
+  border-radius: 7px;
+  border-width: 0;
+  background: #454545;
+  color: whitesmoke;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 20px;
+  font-family: 'Karla', sans-serif;
+  box-shadow: 2px 2px 4px black;
+  
+}
+
+button:hover {
+  opacity: 0.8;
+  
+}
+
+button:active {
+  opacity: 0.5;
+  color: #454545 ;
+  background: whitesmoke;
+  
+}
+
+
+
+
+
+
+@media screen and (max-width: 800px) and (orientation: portrait) {
+
+  section {
+    width: 80vw;
+    margin: 0 10vw;
+  }
+
+  section input{
+    margin: 0 12%;
+    
+  }
+
+  
+}
+
+@media screen and (max-width: 1100px) and (orientation: landscape) {
+
+  .dados {
+    height: 10vw;
+    width: auto;
+    
+  }
+  
+  
+  
+}
