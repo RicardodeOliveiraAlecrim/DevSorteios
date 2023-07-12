@@ -1,4 +1,4 @@
-function generateNumber() {
+function generateNumbers() {
       
   const min = Math.ceil(document.querySelector(".min").value)
   const max = Math.floor(document.querySelector(".max").value)
