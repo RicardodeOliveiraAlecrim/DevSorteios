@@ -119,6 +119,19 @@ button:active {
 
 @media screen and (max-width: 800px) and (orientation: portrait) {
 
+  h1 {
+    font-size: 30vw;
+  }
+
+  header {
+    height: 30vh;
+  }
+
+  .dados {
+    position: relative;
+    left: 10vh;
+  }
+  
   section {
     width: 80vw;
     margin: 0 10vw;
